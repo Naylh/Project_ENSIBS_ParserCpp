@@ -1,0 +1,112 @@
+set label "Node1"  at 38,34
+set label "Node2"  at 28,26
+set label "Node3"  at 15,21
+set label "Node4"  at 37,17
+set label "Node5"  at 35,5
+set label "Node6"  at 29,12
+set label "Node7"  at 20,7
+set label "Node8"  at 26,23
+set label "Node9"  at 33,15
+set xrange [5:48]
+set yrange [-5:44]
+set object circle at 38,34 size 1 fc rgb  "blue"
+set object circle at 28,26 size 1 fc rgb  "blue"
+set object circle at 15,21 size 1 fc rgb  "blue"
+set object circle at 37,17 size 1 fc rgb  "blue"
+set object circle at 35,5 size 1 fc rgb  "blue"
+set object circle at 29,12 size 1 fc rgb  "blue"
+set object circle at 20,7 size 1 fc rgb  "blue"
+set object circle at 26,23 size 1 fc rgb  "blue"
+set object circle at 33,15 size 1 fc rgb  "blue"
+plot "data.dat" with lines;
+pause mouse "click to continue"
+set title "Packet 1"
+set label "Packet1"  at 24,21
+set object rect from 25,22 to 27,24 fc rgb  "red"
+set object rect from 19,6 to 21,8 fc rgb  "red"
+set object rect from 14,20 to 16,22 fc rgb  "red"
+set object rect from 27,25 to 29,27 fc rgb  "red"
+set object rect from 37,33 to 39,35 fc rgb  "red"
+plot "data0.dat" with lines;
+pause mouse "click to continue"
+set title "Packet 2"
+set label "Packet2"  at 24,21
+set object rect from 25,22 to 27,24 fc rgb  "red"
+set object rect from 19,6 to 21,8 fc rgb  "red"
+set object rect from 14,20 to 16,22 fc rgb  "red"
+plot "data1.dat" with lines;
+pause mouse "click to continue"
+set title "Packet 3"
+set label "Packet3"  at 24,21
+set object rect from 25,22 to 27,24 fc rgb  "red"
+set object rect from 19,6 to 21,8 fc rgb  "red"
+plot "data2.dat" with lines;
+pause mouse "click to continue"
+set title "Packet 4"
+set label "Packet4"  at 24,21
+set object rect from 25,22 to 27,24 fc rgb  "red"
+set object rect from 19,6 to 21,8 fc rgb  "red"
+set object rect from 28,11 to 30,13 fc rgb  "red"
+plot "data3.dat" with lines;
+pause mouse "click to continue"
+set title "Packet 5"
+set label "Packet5"  at 31,13
+set object rect from 32,14 to 34,16 fc rgb  "red"
+set object rect from 34,4 to 36,6 fc rgb  "red"
+set object rect from 36,16 to 38,18 fc rgb  "red"
+set object rect from 27,25 to 29,27 fc rgb  "red"
+set object rect from 37,33 to 39,35 fc rgb  "red"
+plot "data4.dat" with lines;
+pause mouse "click to continue"
+set title "Packet 6"
+set label "Packet6"  at 31,13
+set object rect from 32,14 to 34,16 fc rgb  "red"
+set object rect from 34,4 to 36,6 fc rgb  "red"
+set object rect from 36,16 to 38,18 fc rgb  "red"
+plot "data5.dat" with lines;
+pause mouse "click to continue"
+set title "Packet 7"
+set label "Packet7"  at 27,10
+set object rect from 28,11 to 30,13 fc rgb  "red"
+set object rect from 34,4 to 36,6 fc rgb  "red"
+set object rect from 36,16 to 38,18 fc rgb  "red"
+set object rect from 27,25 to 29,27 fc rgb  "red"
+set object rect from 37,33 to 39,35 fc rgb  "red"
+plot "data6.dat" with lines;
+pause mouse "click to continue"
+set title "Packet 8"
+set label "Packet8"  at 27,10
+set object rect from 28,11 to 30,13 fc rgb  "red"
+set object rect from 19,6 to 21,8 fc rgb  "red"
+plot "data7.dat" with lines;
+pause mouse "click to continue"
+set title "Packet 9"
+set label "Packet9"  at 27,10
+set object rect from 28,11 to 30,13 fc rgb  "red"
+set object rect from 19,6 to 21,8 fc rgb  "red"
+set object rect from 25,22 to 27,24 fc rgb  "red"
+plot "data8.dat" with lines;
+pause mouse "click to continue"
+set title "Packet 10"
+set label "Packet10"  at 27,10
+set object rect from 28,11 to 30,13 fc rgb  "red"
+set object rect from 34,4 to 36,6 fc rgb  "red"
+set object rect from 32,14 to 34,16 fc rgb  "red"
+plot "data9.dat" with lines;
+pause mouse "click to continue"
+set title "Packet 11"
+set label "Packet11"  at 36,32
+set object rect from 37,33 to 39,35 fc rgb  "red"
+set object rect from 27,25 to 29,27 fc rgb  "red"
+set object rect from 36,16 to 38,18 fc rgb  "red"
+set object rect from 34,4 to 36,6 fc rgb  "red"
+set object rect from 28,11 to 30,13 fc rgb  "red"
+plot "data10.dat" with lines;
+pause mouse "click to continue"
+set title "Packet 12"
+set label "Packet12"  at 36,32
+set object rect from 37,33 to 39,35 fc rgb  "red"
+set object rect from 27,25 to 29,27 fc rgb  "red"
+set object rect from 14,20 to 16,22 fc rgb  "red"
+plot "data11.dat" with lines;
+pause mouse "click to continue"

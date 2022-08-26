@@ -1,0 +1,10 @@
+Node,,
+Node1,1,1
+Node2,50,1
+Node3,25,10
+Node4,1,20
+traffic,,,
+Node1,Node4
+connection,,
+Node1,Node2
+Node3,Node4
